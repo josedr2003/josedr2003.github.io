@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Author" content="Jose Francisco Diaz Rodriguez">
+	<meta name="Description" content="Formulario">
+	<meta name="Keywords" content="formulario">
+	<title>Formulario</title>
+	<link  rel="stylesheet" type="text/css" href="formulario.css" />
+	
+	<title>Formulario</title>
+</head>
+<body>
+	<main>
+		<h1>Formulario</h1>
+		<form>
+			<div class='field'>
+				<label>Nombre</label>
+				<input name='nombre' type='name' autocomplete required/>
+				
+			</div>
+			<div class='field'>
+				<label>Apellidos</label>
+				<input name='apellidos' type='name' autocomplete required/>
+			</div>
+			<div class='field'>
+				<label>Estado civil</label>
+				<select name='estadoLaboral' required>
+					<option selected disabled>Sel. una opción</option>
+					<option>Soltero</option>
+					<option>Casado</option>
+					<option>Divorciado</option>
+				</select>
+			</div>
+			<div class='field'>
+				<label>Email</label>
+				<input name='Email' type='email' autocomplete / required>
+			</div>
+			<div class='field'>
+				<label>Contraseña</label>
+				<input name='Contraseña' type='password' autocomplete / required>
+			</div>
+			<div class='field'>
+				<label>edad</label>
+				<input name='Edad' type="number" min="0" max="100" autocomplete / required>
+			</div>
+			<div class='textBox'>
+				<label>Problemas</label>
+				<textarea></textarea>
+			</div>
+			<div class='sino'>
+				<label>¿Quieres recibir información
+					relacionada con tus gustos?</label>
+				<div><input name='sino' type='radio' />Sí</div>
+				<div><input name='sino' type='radio' />No</div>
+			</div>
+			<div class='submit'>
+				<button>
+					REGISTRARME
+				</button>
+			</div>
+			<div class='submit2'>
+				<button  >
+					BORRAR
+				</button>
+			</div>
+		</form>
+	</main>
+	
+</body>
+</html>
