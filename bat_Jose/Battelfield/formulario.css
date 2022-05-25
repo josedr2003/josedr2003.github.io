@@ -138,3 +138,13 @@ textarea{
 	background-color: red;
 }
 
+.contenedorOculto{
+    display: none;
+    border: 3px solid;
+    padding: 5px;
+    padding-left: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
